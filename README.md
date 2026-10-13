@@ -1,5 +1,7 @@
 # PortFilterTest
 
+[![CI](https://github.com/JGud007/PortFilterTest/actions/workflows/ci.yml/badge.svg)](https://github.com/JGud007/PortFilterTest/actions/workflows/ci.yml)
+
 Test whether your ISP is filtering **inbound** TCP/UDP connections on specific
 ports. The default port list is a set of well-known service ports that ISPs
 commonly filter:
