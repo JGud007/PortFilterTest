@@ -1,0 +1,28 @@
+{
+  "timeout": 5.0,
+  "ports": [
+    { "port": 0, "name": "Reserved / invalid destination port", "tcp": false, "udp": false, "unsupported": true },
+    { "port": 20, "name": "FTP data" },
+    { "port": 21, "name": "FTP control" },
+    { "port": 22, "name": "SSH / SFTP" },
+    { "port": 23, "name": "Telnet" },
+    { "port": 25, "name": "SMTP" },
+    { "port": 53, "name": "DNS" },
+    { "port": 67, "name": "DHCP server / bootstrap" },
+    { "port": 68, "name": "DHCP client / bootstrap" },
+    { "port": 80, "name": "HTTP" },
+    { "port": 110, "name": "POP3" },
+    { "port": 135, "name": "MS RPC" },
+    { "port": 137, "name": "NetBIOS name service" },
+    { "port": 138, "name": "NetBIOS datagram" },
+    { "port": 139, "name": "NetBIOS session" },
+    { "port": 143, "name": "IMAP" },
+    { "port": 161, "name": "SNMP" },
+    { "port": 162, "name": "SNMP trap" },
+    { "port": 443, "name": "HTTPS" },
+    { "port": 547, "name": "DHCPv6 server" },
+    { "port": 593, "name": "HTTP RPC / RPC over HTTP" },
+    { "port": 2049, "name": "NFS" },
+    { "port": 8080, "name": "Control (not in the blocked list)", "control": true }
+  ]
+}
